@@ -1,0 +1,81 @@
+/**** Base Styles ****/
+body {
+  font-family: 'Libre-Baskerville', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+#computer { height: 800px;
+}
+#about { height: 1050px;
+}
+#portfolio { height: 850px;
+}
+#contact { height: 650px;
+}
+
+/**** Grid ****/
+
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 700px;
+  float: left;
+}
+.third-width {
+  width: 450px;
+  float: left;
+}
+
+/**** Header ****/
+
+header {
+  height: 800px;
+  background-size: cover;
+  background-color: white;
+
+}
+
+header h1 {
+    margin: 300px 0 20px 75px;
+    color: #313131;
+    font-family: 'Libre-Baskerville';
+    font-size:64px;
+    font-weight: 700;
+}
+
+
+nav ul {
+    float: right;
+    padding: 75px 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:overline;
+    font-size:24px;
+    color:#313131;
+    font-family: 'Roboto';
+    padding-left: 55px;
+}
+
+header h2 {
+    width:1000px;
+    clear:both;
+    font-family:'Roboto',sans-serif;
+    font-size:48px;
+    line-height:50px;
+    font-weight:300;
+    color:#313131;
+    margin: 75px 0 20px 75px;
+
+
+}
+header h2 span {
+    color:#2b2b2b;
+}
