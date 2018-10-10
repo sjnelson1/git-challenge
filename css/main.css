@@ -14,9 +14,9 @@ body {
 
 #about { height: 1150px;
 }
-#portfolio { height: 850px;
+#portfolio { height: 950px;
 }
-#contact { height: 650px;
+#contact { height: 550px;
 }
 
 
@@ -38,7 +38,7 @@ body {
 /**** Header ****/
 
 header {
-  height: 800px;
+  height: 750px;
   background-color: white;
 
 
@@ -46,7 +46,7 @@ header {
   header img {
 
     float: left;
-    padding: 300px 20px 0 100px;
+    padding: 275px 20px 0 100px;
 
 }
 
@@ -59,7 +59,7 @@ header {
     font-family: 'Libre-Baskerville';
     font-size:64px;
     font-weight:bold;
-    padding: 300px 0 0 100px;
+    padding: 275px 0 0 100px;
 
 
 
@@ -101,7 +101,7 @@ header {
 
     font-family:'Open-Sans',sans-serif;
     font-size:48px;
-    line-height:50px;
+    line-height:60px;
     font-weight:300;
     color:#313131;
     padding-left: 100px;
@@ -128,7 +128,7 @@ header {
     font-family: 'Libre-Baskerville';
     font-size: 36px;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     color: #ffffff;
     font-weight:lighter;
 }
@@ -157,7 +157,7 @@ header {
   font-family: 'Open-Sans',sans-serif;
   font-size: 24px;
   font-weight: lighter;
-  line-height: 43px;
+  line-height: 46px;
   text-align: center;
   color: #ffffff;
   padding-left: 250px;
@@ -170,14 +170,14 @@ header {
   font-weight: lighter;
   letter-spacing: 3px;
   color: #ffffff;
-  font-size: 35px;
+  font-size: 32px;
 
 }
 
 /***** Portfolio *****/
 
 #portfolio .full-width {
-  padding-top: 150px;
+  padding-top: 130px;
   padding-left: 20px;
   text-align: center;
 
@@ -186,10 +186,8 @@ header {
 
 
 #portfolio img {
-  padding-top: 100px;
-
-
-
+  padding-top: 130px;
+  padding-bottom: 10px;
 
 
 }
@@ -288,7 +286,7 @@ header {
 
    color: #ffffff;
    text-align: center;
-   padding-top: 50px;
+   padding-top: 120px;
    letter-spacing: 1px;
    font-weight: lighter;
 
