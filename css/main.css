@@ -12,11 +12,11 @@ body {
 }
 
 
-#about { height: 1150px;
+#about {height: 1150px;
 }
-#portfolio { height: 950px;
+#portfolio {height: 975px;
 }
-#contact { height: 550px;
+#contact {height: 525px;
 }
 
 
@@ -38,79 +38,49 @@ body {
 /**** Header ****/
 
 header {
-  height: 750px;
-  background-color: white;
-
-
+    height: 750px;
+    background-color: white;
 }
-  header img {
-
+header img {
     float: left;
     padding: 275px 20px 0 100px;
-
 }
-
-
-
-
-  header h1 {
-
+header h1 {
     color: #313131;
     font-family: 'Libre-Baskerville';
     font-size:64px;
     font-weight:bold;
     padding: 275px 0 0 100px;
-
-
-
 }
-
-
-
   header h1 span {
     color:#ff654a;
     font-family: 'Southampton';
     letter-spacing: 3px;
-
 }
-
-
   nav ul {
     float: right;
     padding-right: 40px;
-
-
 }
-
   nav ul li {
-
     display: inline-block;
 }
   nav ul li a {
     text-transform:uppercase;
-    text-decoration:overline;
-    font-size:24px;
+    text-decoration:underline;
+    font-size:20px;
     font-weight: lighter;
     color:#313131;
     font-family: 'Open-Sans',sans-serif;
-    padding-left: 30px;
-
+    padding-left: 5px;
 }
-
   header h2 {
-
     font-family:'Open-Sans',sans-serif;
     font-size:48px;
     line-height:60px;
     font-weight:300;
     color:#313131;
     padding-left: 100px;
-
-
-
 }
-
-
 
 
 /***** About *****/
@@ -120,11 +90,8 @@ header {
     padding-top:50px;
     background-color: #ff654a;
     height: 1150px;
-
 }
-
 #about h3 {
-
     font-family: 'Libre-Baskerville';
     font-size: 36px;
     text-align: center;
@@ -132,163 +99,126 @@ header {
     color: #ffffff;
     font-weight:lighter;
 }
-
 #about h3 span {
-  font-family:'Southampton';
-  font-weight: lighter;
-  color: #ffffff;
-  letter-spacing: 2px;
-  font-size: 50px;
-
+    font-family:'Southampton';
+    font-weight: lighter;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 50px;
 }
-
 #about img#about-img {
     margin-left: 550px;
-    border: 3px solid #ffffff;
+    border: 1px solid #ffffff;
     box-shadow: 0 10px 20px;
-
-
-
-
 }
-
 #about p {
-
-  font-family: 'Open-Sans',sans-serif;
-  font-size: 24px;
-  font-weight: lighter;
-  line-height: 46px;
-  text-align: center;
-  color: #ffffff;
-  padding-left: 250px;
-  padding-right: 250px;
-
+    font-family: 'Open-Sans',sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 46px;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 250px;
+    padding-right: 250px;
 }
-
 #about p span {
-  font-family:'Southampton';
-  font-weight: lighter;
-  letter-spacing: 3px;
-  color: #ffffff;
-  font-size: 32px;
-
+    font-family:'Southampton';
+    font-weight: lighter;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-size: 32px;
 }
 
 /***** Portfolio *****/
 
 #portfolio .full-width {
-  padding-top: 130px;
-  padding-left: 20px;
-  text-align: center;
-
-
+    padding-top: 110px;
+    padding-left: 20px;
+    text-align: center;
 }
-
-
 #portfolio img {
-  padding-top: 130px;
-  padding-bottom: 10px;
-
-
+    padding-top: 130px;
+    padding-bottom: 10px;
 }
-
 #portfolio h3 {
-  font-family: 'Southampton';
-  letter-spacing: 2px;
-  font-size: 50px;
-  font-weight: lighter;
-  text-align: center;
-
-
-
+    font-family: 'Southampton';
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
 }
-
-
 #portfolio h4 {
-  font-family: 'Open-Sans';
-  font-size: 24px;
-  margin-bottom: -30px;
-
-
-
-
+    font-family: 'Open-Sans';
+    font-size: 24px;
+    margin-bottom: -30px;
 }
 #portfolio h5 {
-  font-family: 'Open-Sans',sans-serif;
-  font-size: 24px;
-  font-weight: lighter;
-
-
-
+    font-family: 'Open-Sans',sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
 }
 
 
 /***** Contact *****/
 
 #contact .full-width {
-  background-color: #ff654a;
-  height: 650px;
-  padding-top: 150px;
+    background-color: #ff654a;
+    height: 650px;
+    padding-top: 100px;
 }
-
 #contact h3 {
-  font-family: 'Southampton';
-  font-size: 50px;
-  font-weight: lighter;
-  text-align: center;
-  color: #ffffff;
-  padding-bottom: 70px;
-  letter-spacing: 3px;
-
+    font-family: 'Southampton';
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 100px;
+    letter-spacing: 3px;
 }
-
-
 #contact h4 {
-  font-family: 'Open-Sans',sans-serif;
-  font-size: 24px;
-  font-weight: lighter;
-  text-align: center;
-  color: #ffffff;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-  padding-left: 35px;
+    font-family: 'Libre-Baskerville';
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 15px;
+    padding-left: 35px;
 }
-
-
-
+ #contact h5 {
+   font-family: 'Open-Sans',sans-serif;
+   font-size: 30px;
+   font-weight: lighter;
+   text-align: center;
+   color: #ffffff;
+   padding-bottom: 15px;
+   padding-left: 35px;
+ }
  #contact #mail a {
    font-family: 'Open-Sans',sans-serif;
-   font-size: 24px;
+   font-size: 30px;
    font-weight: lighter;
    color: #ffffff;
    padding-left: 150px;
    padding-top: 20px;
-
  }
-
  #contact ul {
-     list-style: none;
-     margin-top: -10px;
+   list-style: none;
+   margin-top: -10px;
  }
-
  #contact ul li {
-      display: inline-block;
-
+   display: inline-block;
  }
-
  #contact ul img {
    padding-left: 60px;
    padding-top: 20px;
  }
 
+/***** Footer *****/
+
  footer h5 {
-
-
    color: #ffffff;
    text-align: center;
-   padding-top: 120px;
+   padding-top: 170px;
    letter-spacing: 1px;
    font-weight: lighter;
-
-
  }
