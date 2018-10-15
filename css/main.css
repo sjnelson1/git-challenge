@@ -74,8 +74,8 @@ header h1 {
     padding-left: 5px;
 }
   nav a:hover {
-    color:lightgray;
-  }
+    color:#ff654a;
+}
 
   header h2 {
     font-family:'Open-Sans',sans-serif;
